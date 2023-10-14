@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Survey Form</title>
+		<link rel="stylesheet" href="styles/styles.css" />
+		<script src="scripts/scripts.js"></script>
+	</head>
+	<body class="survey-form-page">
+		<header class="heading">Customer Survey Form</header>
+		<main class="survey-form-container">
+			<form class="survey-form">
+				<div class="survey-input-fields">
+					<div class="survey-fields">
+						<div class="survey-field">
+							<span class="survey-input">
+								<label for="first-name" class="survey-label">First Name</label>
+								<div class="required-input">
+									<input id="first-name" type="text" name="text" class="form-field first-name required input-box required-name-input">
+								</div>
+							</span>
+							<p class="error-message"></p>
+						</div>
+						<div class="survey-field">
+							<span class="survey-input">
+								<label for="last-name" class="survey-label">Last Name</label>
+								<div class="required-input">
+									<input id="last-name" type="text" name="text" class="form-field last-name required input-box required-name-input">
+								</div>
+							</span>
+							<p class="error-message"></p>
+						</div>
+					</div>
+					<div class="survey-fields">
+						<div class="survey-field">
+							<span class="survey-input">
+								<label for="birthday">Date of Birth</label>
+								<div class="required-input">
+									<input type="date" id="birthday" name="date-of-birth" class="form-field date-of-birth required input-box" />
+								</div>
+							</span>
+							<p class="error-message"></p>
+						</div>
+						<div class="survey-field">
+							<span class="survey-input">
+                                <label for="country-dropdown" class="survey-label">Country</label>
+                                <div>
+                                    <select id="country-dropdown" class="form-field country-dropdown input-box"></select>
+                                </div>
+							</span>
+						</div>
+					</div>
+					<div class="genders-container">
+						<p>Select Gender</p>
+						<section class="genders">
+                            <div class="gender">
+                                <input id="male" type="radio" name="gender" class="radio-input gender-input" value="Male" />
+                                <label for="male" class="gender">Male</label>
+                            </div>
+                            <div class="gender">
+                                <input id="female" type="radio" name="gender" class="radio-input gender-input" value="Female">
+                                <label for="female" class="gender">Female</label>
+                            </div>
+                            <div class="gender">
+                                <input id="other" type="radio" name="gender" class="radio-input gender-input" value="Other">
+                                <label for="other" class="gender">Other</label>
+                            </div>
+						</section>
+                        <p class="error-message"></p>
+					</div>
+					<div class="survey-fields">
+						<div class="survey-field">
+							<span class="survey-input">
+								<label for="profession">Profession</label>
+								<div class="required-input">
+									<input type="text" id="profession" name="text" class="form-field profession required input-box" />
+								</div>
+							</span>
+							<p class="error-message"></p>
+						</div>
+						<div class="survey-field">
+							<span class="survey-input">
+								<label for="mail" class="survey-label">Email</label>
+								<div class="required-input">
+									<input id="mail" type="text" name="email" class="form-field email required input-box" />
+								</div>
+							</span>
+							<p class="error-message"></p>
+						</div>
+					</div>
+					<div class="survey-fields">
+						<div class="survey-field">
+							<span class="survey-input">
+								<label for="mobile" class="survey-label">Mobile Number</label>
+								<div class="required-input">
+									<input id="mobile" type="tel" name="mobile" class="form-field mobile required input-box" />
+								</div>
+							</span>
+							<p class="error-message"></p>
+						</div>
+					</div>
+					<div class="survey-form-submit">
+						<button class="reset form-button" type="reset">Reset</button>
+						<button class="submit form-button" type="button">Submit</button>
+					</div>
+				</div>
+			</form>
+		</main>
+	</body>
+</html>

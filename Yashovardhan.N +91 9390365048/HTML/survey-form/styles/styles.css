@@ -1,0 +1,74 @@
+.survey-form-page {
+    background-color: rgb(13, 150, 230);
+    height: 100vh;
+    font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", "Helvetica Neue", "sans-serif";
+}
+
+.survey-form-page, p {
+    margin: 0;
+    padding: 0;
+}
+
+.survey-form {
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px 14px;
+    width: fit-content;
+    font-size: 14px;
+}
+
+.survey-fields {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.heading {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+}
+
+.form-button {
+    background-color: rgb(13, 150, 230);
+    color: white;
+    border: 0;
+    padding: 9px 23px;
+    margin-top: 14px;
+}
+
+.survey-form-submit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.error-message {
+    height: 12px;
+}
+
+.input-box {
+    width: 150px;
+    height: 20px;
+}
+
+.genders-container {
+    margin-bottom: 12px;
+}
+
+.genders {
+    display: flex;
+    gap: 10px;
+}
+
+.gender {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+}

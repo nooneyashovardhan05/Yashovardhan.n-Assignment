@@ -1,0 +1,64 @@
+.page {
+	background-color: rgb(189, 189, 189);
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+		"Open Sans", "Helvetica Neue", "sans-serif";
+	margin: 0;
+	padding: 0;
+}
+
+.operator-input-field,
+.equation-input,
+.all-clear,
+.operand-input-field {
+	border: 0;
+}
+
+.calculator-input-fields,
+.calculator-buttons,
+.page {
+	display: flex;
+}
+
+.all-clear,
+.operand-input-field,
+.operator-input-field {
+	color: white;
+}
+
+.equation-input {
+	outline: none;
+	height: 65px;
+	padding: 0 18px;
+	width: 200px;
+	font-size: 24px;
+	font-weight: 500;
+	overflow: hidden;
+}
+
+.all-clear {
+	background-color: rgb(18, 150, 136);
+	padding: 0 30px;
+	font-size: 20px;
+}
+
+.operand-input-fields {
+	display: grid;
+	grid-template: 1fr 1fr 1fr/ 79px 79px 79px;
+}
+
+.operator-input-field {
+	display: block;
+	font-size: 18px;
+	background-color: rgb(117, 117, 117);
+	padding: 23.5px 0;
+	width: 86.5px;
+}
+
+.operand-input-field {
+	font-size: 20px;
+	padding: 22px 35px;
+	background-color: rgb(33, 33, 33);
+}
